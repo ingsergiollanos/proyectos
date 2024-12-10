@@ -1,0 +1,67 @@
+:root{
+    background-color: rgb(30, 92, 143);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+
+height: 100vh;
+justify-content:center ;
+display: flex;
+text-align: center;
+}
+
+.contenedor{
+    border-radius: 10px;
+    background-color: rgb(211, 208, 208);
+    width: 450px;
+    height: 220px;
+    text-align: center;
+    position: relative;
+    flex-direction: column;
+    flex-wrap: wrap;
+    top: 20%;
+    bottom: 50%;
+    left: 5px;
+    right: 10%;
+}
+
+input{
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: blanchedalmond;
+}
+
+.botonadd{
+    background-color: rgb(223, 123, 66);
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.li-contenedor {
+  
+    flex-direction:column;
+    text-align: start;
+    font-size: 1rem;
+    display: inline-flexbox;
+}
+
+
+
+li{
+    display: inline-flex;
+    justify-content: space-around;
+    
+}
+
+.btn-delete{
+    font-size: 10px;
+    border-radius: 2px;
+    position: relative;
+    margin-top: 30px;
+    left: 15rem;
+    top: -20px;
+    background-color: rgb(102, 148, 132);
+    
+}
